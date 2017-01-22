@@ -1,0 +1,374 @@
+2016-12-18 11:44:23 Error: [Cake\Console\Exception\MissingShellException] Shell class for "All" could not be found.
+Exception Attributes: array (
+  'class' => 'All',
+)
+Stack Trace:
+#0 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(223): Cake\Console\ShellDispatcher->findShell('All')
+#1 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#2 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#3 /opt/lampp/htdocs/IAB/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
+2016-12-18 11:45:18 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Database/Connection.php(108): Cake\Database\Connection->driver(Object(Cake\Database\Driver\Mysql), Array)
+#1 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Datasource/ConnectionRegistry.php(89): Cake\Database\Connection->__construct(Array)
+#2 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'default', Array)
+#3 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php(205): Cake\Core\ObjectRegistry->load('Cake\\Database\\C...', Array)
+#4 /opt/lampp/htdocs/IAB/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(185): Cake\Datasource\ConnectionManager::get('default')
+#5 /opt/lampp/htdocs/IAB/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(109): Bake\Shell\Task\ModelTask->getTableObject('Users', 'users')
+#6 /opt/lampp/htdocs/IAB/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(97): Bake\Shell\Task\ModelTask->bake('Users')
+#7 /opt/lampp/htdocs/IAB/vendor/cakephp/bake/src/Shell/BakeShell.php(257): Bake\Shell\Task\ModelTask->main('Users')
+#8 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Collection/CollectionTrait.php(52): Bake\Shell\BakeShell->Bake\Shell\{closure}('Users', 0)
+#9 /opt/lampp/htdocs/IAB/vendor/cakephp/bake/src/Shell/BakeShell.php(260): Cake\Collection\Collection->each(Object(Closure))
+#10 [internal function]: Bake\Shell\BakeShell->all('users')
+#11 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Console/Shell.php(452): call_user_func_array(Array, Array)
+#12 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(227): Cake\Console\Shell->runCommand(Array, true, Array)
+#13 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#14 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#15 /opt/lampp/htdocs/IAB/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#16 {main}
+
+
+2016-12-18 11:51:32 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Database/Connection.php(108): Cake\Database\Connection->driver(Object(Cake\Database\Driver\Mysql), Array)
+#1 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Datasource/ConnectionRegistry.php(89): Cake\Database\Connection->__construct(Array)
+#2 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'default', Array)
+#3 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php(205): Cake\Core\ObjectRegistry->load('Cake\\Database\\C...', Array)
+#4 /opt/lampp/htdocs/IAB/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(185): Cake\Datasource\ConnectionManager::get('default')
+#5 /opt/lampp/htdocs/IAB/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(109): Bake\Shell\Task\ModelTask->getTableObject('Users', 'users')
+#6 /opt/lampp/htdocs/IAB/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(97): Bake\Shell\Task\ModelTask->bake('Users')
+#7 /opt/lampp/htdocs/IAB/vendor/cakephp/bake/src/Shell/BakeShell.php(257): Bake\Shell\Task\ModelTask->main('Users')
+#8 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Collection/CollectionTrait.php(52): Bake\Shell\BakeShell->Bake\Shell\{closure}('Users', 0)
+#9 /opt/lampp/htdocs/IAB/vendor/cakephp/bake/src/Shell/BakeShell.php(260): Cake\Collection\Collection->each(Object(Closure))
+#10 [internal function]: Bake\Shell\BakeShell->all('users')
+#11 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Console/Shell.php(452): call_user_func_array(Array, Array)
+#12 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(227): Cake\Console\Shell->runCommand(Array, true, Array)
+#13 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#14 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#15 /opt/lampp/htdocs/IAB/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#16 {main}
+
+
+2016-12-18 11:52:35 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Database/Connection.php(108): Cake\Database\Connection->driver(Object(Cake\Database\Driver\Mysql), Array)
+#1 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Datasource/ConnectionRegistry.php(89): Cake\Database\Connection->__construct(Array)
+#2 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'default', Array)
+#3 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php(205): Cake\Core\ObjectRegistry->load('Cake\\Database\\C...', Array)
+#4 /opt/lampp/htdocs/IAB/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(185): Cake\Datasource\ConnectionManager::get('default')
+#5 /opt/lampp/htdocs/IAB/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(109): Bake\Shell\Task\ModelTask->getTableObject('Users', 'users')
+#6 /opt/lampp/htdocs/IAB/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(97): Bake\Shell\Task\ModelTask->bake('Users')
+#7 /opt/lampp/htdocs/IAB/vendor/cakephp/bake/src/Shell/BakeShell.php(257): Bake\Shell\Task\ModelTask->main('Users')
+#8 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Collection/CollectionTrait.php(52): Bake\Shell\BakeShell->Bake\Shell\{closure}('Users', 0)
+#9 /opt/lampp/htdocs/IAB/vendor/cakephp/bake/src/Shell/BakeShell.php(260): Cake\Collection\Collection->each(Object(Closure))
+#10 [internal function]: Bake\Shell\BakeShell->all('users')
+#11 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Console/Shell.php(452): call_user_func_array(Array, Array)
+#12 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(227): Cake\Console\Shell->runCommand(Array, true, Array)
+#13 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#14 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#15 /opt/lampp/htdocs/IAB/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#16 {main}
+
+
+2016-12-18 11:56:18 Error: [PDOException] SQLSTATE[HY000] [2002] No such file or directory
+Stack Trace:
+#0 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Database/Driver/PDODriverTrait.php(47): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(104): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(42): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Database/Connection.php(322): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 /opt/lampp/htdocs/IAB/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(946): Cake\Database\Connection->schemaCollection()
+#8 /opt/lampp/htdocs/IAB/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(898): Bake\Shell\Task\ModelTask->_getAllTables()
+#9 /opt/lampp/htdocs/IAB/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(202): Bake\Shell\Task\ModelTask->listAll()
+#10 /opt/lampp/htdocs/IAB/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(127): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#11 /opt/lampp/htdocs/IAB/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(110): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'users', 'Users')
+#12 /opt/lampp/htdocs/IAB/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(97): Bake\Shell\Task\ModelTask->bake('Users')
+#13 /opt/lampp/htdocs/IAB/vendor/cakephp/bake/src/Shell/BakeShell.php(257): Bake\Shell\Task\ModelTask->main('Users')
+#14 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Collection/CollectionTrait.php(52): Bake\Shell\BakeShell->Bake\Shell\{closure}('Users', 0)
+#15 /opt/lampp/htdocs/IAB/vendor/cakephp/bake/src/Shell/BakeShell.php(260): Cake\Collection\Collection->each(Object(Closure))
+#16 [internal function]: Bake\Shell\BakeShell->all('users')
+#17 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Console/Shell.php(452): call_user_func_array(Array, Array)
+#18 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(227): Cake\Console\Shell->runCommand(Array, true, Array)
+#19 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#20 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#21 /opt/lampp/htdocs/IAB/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#22 {main}
+
+
+2016-12-18 12:00:14 Warning: Warning (2): unlink(/opt/lampp/htdocs/IAB/tests/Fixture/empty): Permission denied in [/opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Filesystem/File.php, line 285]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+unlink - [internal], line ??
+Cake\Filesystem\File::delete() - CORE/src/Filesystem/File.php, line 285
+Bake\Shell\Task\BakeTask::_deleteEmptyFile() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTask.php, line 207
+Bake\Shell\Task\FixtureTask::generateFixtureFile() - ROOT/vendor/cakephp/bake/src/Shell/Task/FixtureTask.php, line 235
+Bake\Shell\Task\FixtureTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/FixtureTask.php, line 199
+Bake\Shell\Task\ModelTask::bakeFixture() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 1050
+Bake\Shell\Task\ModelTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 113
+Bake\Shell\Task\ModelTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 97
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 257
+Cake\Collection\Collection::each() - CORE/src/Collection/CollectionTrait.php, line 52
+Bake\Shell\BakeShell::all() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 260
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 227
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2016-12-18 12:00:14 Warning: Warning (2): mkdir(): Permission denied in [/opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Filesystem/Folder.php, line 637]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+mkdir - [internal], line ??
+Cake\Filesystem\Folder::create() - CORE/src/Filesystem/Folder.php, line 637
+Cake\Filesystem\Folder::__construct() - CORE/src/Filesystem/Folder.php, line 146
+Cake\Filesystem\File::__construct() - CORE/src/Filesystem/File.php, line 85
+Cake\Console\Shell::createFile() - CORE/src/Console/Shell.php, line 827
+Bake\Shell\Task\TestTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/TestTask.php, line 275
+Bake\Shell\Task\ModelTask::bakeTest() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 1067
+Bake\Shell\Task\ModelTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 114
+Bake\Shell\Task\ModelTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 97
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 257
+Cake\Collection\Collection::each() - CORE/src/Collection/CollectionTrait.php, line 52
+Bake\Shell\BakeShell::all() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 260
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 227
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2016-12-18 12:00:14 Warning: Warning (2): mkdir(): Permission denied in [/opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Filesystem/Folder.php, line 637]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+mkdir - [internal], line ??
+Cake\Filesystem\Folder::create() - CORE/src/Filesystem/Folder.php, line 637
+Cake\Filesystem\Folder::__construct() - CORE/src/Filesystem/Folder.php, line 146
+Cake\Filesystem\File::__construct() - CORE/src/Filesystem/File.php, line 85
+Cake\Console\Shell::createFile() - CORE/src/Console/Shell.php, line 827
+Bake\Shell\Task\TemplateTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php, line 394
+Bake\Shell\Task\TemplateTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php, line 154
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 259
+Cake\Collection\Collection::each() - CORE/src/Collection/CollectionTrait.php, line 52
+Bake\Shell\BakeShell::all() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 260
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 227
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2016-12-18 12:00:14 Warning: Warning (2): mkdir(): Permission denied in [/opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Filesystem/Folder.php, line 637]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+mkdir - [internal], line ??
+Cake\Filesystem\Folder::create() - CORE/src/Filesystem/Folder.php, line 637
+Cake\Filesystem\Folder::__construct() - CORE/src/Filesystem/Folder.php, line 146
+Cake\Filesystem\File::__construct() - CORE/src/Filesystem/File.php, line 85
+Cake\Console\Shell::createFile() - CORE/src/Console/Shell.php, line 827
+Bake\Shell\Task\TemplateTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php, line 394
+Bake\Shell\Task\TemplateTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php, line 154
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 259
+Cake\Collection\Collection::each() - CORE/src/Collection/CollectionTrait.php, line 52
+Bake\Shell\BakeShell::all() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 260
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 227
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2016-12-18 12:00:14 Warning: Warning (2): mkdir(): Permission denied in [/opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Filesystem/Folder.php, line 637]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+mkdir - [internal], line ??
+Cake\Filesystem\Folder::create() - CORE/src/Filesystem/Folder.php, line 637
+Cake\Filesystem\Folder::__construct() - CORE/src/Filesystem/Folder.php, line 146
+Cake\Filesystem\File::__construct() - CORE/src/Filesystem/File.php, line 85
+Cake\Console\Shell::createFile() - CORE/src/Console/Shell.php, line 827
+Bake\Shell\Task\TemplateTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php, line 394
+Bake\Shell\Task\TemplateTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php, line 154
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 259
+Cake\Collection\Collection::each() - CORE/src/Collection/CollectionTrait.php, line 52
+Bake\Shell\BakeShell::all() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 260
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 227
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2016-12-18 12:00:14 Warning: Warning (2): mkdir(): Permission denied in [/opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Filesystem/Folder.php, line 637]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+mkdir - [internal], line ??
+Cake\Filesystem\Folder::create() - CORE/src/Filesystem/Folder.php, line 637
+Cake\Filesystem\Folder::__construct() - CORE/src/Filesystem/Folder.php, line 146
+Cake\Filesystem\File::__construct() - CORE/src/Filesystem/File.php, line 85
+Cake\Console\Shell::createFile() - CORE/src/Console/Shell.php, line 827
+Bake\Shell\Task\TemplateTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php, line 394
+Bake\Shell\Task\TemplateTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php, line 154
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 259
+Cake\Collection\Collection::each() - CORE/src/Collection/CollectionTrait.php, line 52
+Bake\Shell\BakeShell::all() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 260
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 227
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2017-01-05 14:08:43 Error: [ParseError] syntax error, unexpected ';', expecting '{'
+Stack Trace:
+#0 /opt/lampp/htdocs/IAB/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile('/opt/lampp/htdo...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Model\\Table...')
+#2 [internal function]: spl_autoload_call('App\\Model\\Table...')
+#3 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Model\\Table...')
+#4 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Model\\Table\\Ca...', 'App')
+#5 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php(201): Cake\Core\App::className('Carts', 'Model/Table', 'Table')
+#6 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php(156): Cake\ORM\Locator\TableLocator->_getClassName('Carts', Array)
+#7 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/ORM/TableRegistry.php(110): Cake\ORM\Locator\TableLocator->get('Carts', Array)
+#8 /opt/lampp/htdocs/IAB/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(185): Cake\ORM\TableRegistry::get('Carts', Array)
+#9 /opt/lampp/htdocs/IAB/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(344): Bake\Shell\Task\ModelTask->getTableObject('Carts', 'carts')
+#10 /opt/lampp/htdocs/IAB/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(221): Bake\Shell\Task\ModelTask->findHasMany(Object(Cake\ORM\Table), Array)
+#11 /opt/lampp/htdocs/IAB/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(127): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#12 /opt/lampp/htdocs/IAB/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(110): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'orders', 'Orders')
+#13 /opt/lampp/htdocs/IAB/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(97): Bake\Shell\Task\ModelTask->bake('Orders')
+#14 /opt/lampp/htdocs/IAB/vendor/cakephp/bake/src/Shell/BakeShell.php(257): Bake\Shell\Task\ModelTask->main('Orders')
+#15 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Collection/CollectionTrait.php(52): Bake\Shell\BakeShell->Bake\Shell\{closure}('Orders', 0)
+#16 /opt/lampp/htdocs/IAB/vendor/cakephp/bake/src/Shell/BakeShell.php(260): Cake\Collection\Collection->each(Object(Closure))
+#17 [internal function]: Bake\Shell\BakeShell->all('orders')
+#18 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Console/Shell.php(452): call_user_func_array(Array, Array)
+#19 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(227): Cake\Console\Shell->runCommand(Array, true, Array)
+#20 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#21 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#22 /opt/lampp/htdocs/IAB/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#23 {main}
+
+
+2017-01-07 12:54:04 Warning: Warning (2): mkdir(): Permission denied in [/opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Filesystem/Folder.php, line 637]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+mkdir - [internal], line ??
+Cake\Filesystem\Folder::create() - CORE/src/Filesystem/Folder.php, line 637
+Cake\Filesystem\Folder::__construct() - CORE/src/Filesystem/Folder.php, line 146
+Cake\Filesystem\File::__construct() - CORE/src/Filesystem/File.php, line 85
+Cake\Console\Shell::createFile() - CORE/src/Console/Shell.php, line 827
+Bake\Shell\Task\TemplateTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php, line 394
+Bake\Shell\Task\TemplateTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php, line 154
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 259
+Cake\Collection\Collection::each() - CORE/src/Collection/CollectionTrait.php, line 52
+Bake\Shell\BakeShell::all() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 260
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 227
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2017-01-07 12:54:04 Warning: Warning (2): mkdir(): Permission denied in [/opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Filesystem/Folder.php, line 637]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+mkdir - [internal], line ??
+Cake\Filesystem\Folder::create() - CORE/src/Filesystem/Folder.php, line 637
+Cake\Filesystem\Folder::__construct() - CORE/src/Filesystem/Folder.php, line 146
+Cake\Filesystem\File::__construct() - CORE/src/Filesystem/File.php, line 85
+Cake\Console\Shell::createFile() - CORE/src/Console/Shell.php, line 827
+Bake\Shell\Task\TemplateTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php, line 394
+Bake\Shell\Task\TemplateTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php, line 154
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 259
+Cake\Collection\Collection::each() - CORE/src/Collection/CollectionTrait.php, line 52
+Bake\Shell\BakeShell::all() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 260
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 227
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2017-01-07 12:54:04 Warning: Warning (2): mkdir(): Permission denied in [/opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Filesystem/Folder.php, line 637]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+mkdir - [internal], line ??
+Cake\Filesystem\Folder::create() - CORE/src/Filesystem/Folder.php, line 637
+Cake\Filesystem\Folder::__construct() - CORE/src/Filesystem/Folder.php, line 146
+Cake\Filesystem\File::__construct() - CORE/src/Filesystem/File.php, line 85
+Cake\Console\Shell::createFile() - CORE/src/Console/Shell.php, line 827
+Bake\Shell\Task\TemplateTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php, line 394
+Bake\Shell\Task\TemplateTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php, line 154
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 259
+Cake\Collection\Collection::each() - CORE/src/Collection/CollectionTrait.php, line 52
+Bake\Shell\BakeShell::all() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 260
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 227
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2017-01-07 12:54:04 Warning: Warning (2): mkdir(): Permission denied in [/opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Filesystem/Folder.php, line 637]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+mkdir - [internal], line ??
+Cake\Filesystem\Folder::create() - CORE/src/Filesystem/Folder.php, line 637
+Cake\Filesystem\Folder::__construct() - CORE/src/Filesystem/Folder.php, line 146
+Cake\Filesystem\File::__construct() - CORE/src/Filesystem/File.php, line 85
+Cake\Console\Shell::createFile() - CORE/src/Console/Shell.php, line 827
+Bake\Shell\Task\TemplateTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php, line 394
+Bake\Shell\Task\TemplateTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php, line 154
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 259
+Cake\Collection\Collection::each() - CORE/src/Collection/CollectionTrait.php, line 52
+Bake\Shell\BakeShell::all() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 260
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 452
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 227
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 182
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 128
+[main] - ROOT/bin/cake.php, line 34
+
+
+
+2017-01-07 20:30:17 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bazaSklep.contacts' doesn't exist
+Stack Trace:
+#0 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'contacts', Array, Object(Cake\Database\Schema\Table))
+#1 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(63): Cake\Database\Schema\Collection->describe('contacts', Array)
+#2 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/ORM/Table.php(440): Cake\Database\Schema\CachedCollection->describe('contacts')
+#3 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/ORM/Table.php(518): Cake\ORM\Table->schema()
+#4 /opt/lampp/htdocs/IAB/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(210): Cake\ORM\Table->primaryKey()
+#5 /opt/lampp/htdocs/IAB/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(127): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 /opt/lampp/htdocs/IAB/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(110): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'contacts', 'Contacts')
+#7 /opt/lampp/htdocs/IAB/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(97): Bake\Shell\Task\ModelTask->bake('Contacts')
+#8 /opt/lampp/htdocs/IAB/vendor/cakephp/bake/src/Shell/BakeShell.php(257): Bake\Shell\Task\ModelTask->main('Contacts')
+#9 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Collection/CollectionTrait.php(52): Bake\Shell\BakeShell->Bake\Shell\{closure}('Contacts', 0)
+#10 /opt/lampp/htdocs/IAB/vendor/cakephp/bake/src/Shell/BakeShell.php(260): Cake\Collection\Collection->each(Object(Closure))
+#11 [internal function]: Bake\Shell\BakeShell->all('contacts')
+#12 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Console/Shell.php(452): call_user_func_array(Array, Array)
+#13 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(227): Cake\Console\Shell->runCommand(Array, true, Array)
+#14 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#15 /opt/lampp/htdocs/IAB/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#16 /opt/lampp/htdocs/IAB/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#17 {main}
+
+

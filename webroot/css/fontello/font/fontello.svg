@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2017 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="basket" unicode="&#xe800;" d="M150 0q0 40 30 70t70 30q42 0 71-30t29-70q0-42-29-71t-71-29q-40 0-70 29t-30 71z m500 0q0 40 30 70t70 30q42 0 71-30t29-70q0-42-29-71t-71-29q-40 0-70 29t-30 71z m-322 236q-36-10-34-23t44-13l562 0 0-76q0-20-20-20l-654 0q-20 0-20 20l0 76-10 46-98 454-98 0 0 80q0 20 20 20l156 0q20 0 20-20l0-86 704 0 0-274q0-22-18-26z" horiz-adv-x="900" />
+
+<glyph glyph-name="cog" unicode="&#xe801;" d="M760 350q0-72 80-122-12-40-34-82-70 18-136-44-54-58-34-136-40-20-84-36-46 82-132 82t-132-82q-44 16-84 36 20 80-34 136-54 54-136 34-14 26-34 82 82 52 82 132 0 72-82 124 20 56 34 82 74-18 136 44 54 56 34 136 42 22 84 34 46-80 132-80t132 80q42-12 84-34-20-78 34-136 66-62 136-44 22-42 34-82-80-50-80-124z m-340-182q76 0 129 53t53 129-53 130-129 54-129-54-53-130 53-129 129-53z" horiz-adv-x="840" />
+
+<glyph glyph-name="pencil" unicode="&#xe802;" d="M718 680q32-32 47-64t15-48l0-16-252-252-290-288-238-52 50 240 290 288 252 252q54 12 126-60z m-494-640l24 24q-2 44-52 94-22 22-45 35t-35 13l-14 2-22-24-18-80q28-16 46-34 24-24 36-48z" horiz-adv-x="780" />
+
+<glyph glyph-name="book-open" unicode="&#xe803;" d="M340 238l0-68-200 80 0 68z m0 208l0-68-200 80 0 68z m538 346q22-12 22-42l0-640q0-34-32-46l-398-160q-8-2-10-2t-5-1-5-1-5 1-5 1l-10 2-398 160q-32 12-32 46l0 640q0 30 22 42 22 16 46 6l382-154 382 154q24 10 46-6z m-478-788l0 560-320 128 0-560z m420 128l0 560-320-128 0-560z m-60 186l0-68-200-80 0 68z m0 208l0-68-200-80 0 68z" horiz-adv-x="900" />
+</font>
+</defs>
+</svg>
